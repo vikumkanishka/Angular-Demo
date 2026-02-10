@@ -9,5 +9,5 @@ import { Nav } from "./page/nav/nav";
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('demo-app');
+  name: string = 'Angular';
 }
