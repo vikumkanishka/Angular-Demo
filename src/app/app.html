@@ -2,8 +2,12 @@
 <p>this is my first angular app</p>
 <app-nav></app-nav>
 <div>
-    <input type="text" [(ngModel)]="name">
-    <h1>{{name}}</h1>
+    <input type="text" [(ngModel)]="customer.name" placeholder="Name">
+    <input type="text" [(ngModel)]="customer.age" placeholder="Age">
+    <input type="text" [(ngModel)]="customer.address" placeholder="Address">
+    <h1>Name : {{customer.name}}</h1>
+    <h1>Age : {{customer.age}}</h1>
+    <h1>Address : {{customer.address}}</h1>
 
     <input type="button" value="click" (click)="clickMe()">
 </div>
