@@ -1,3 +1,9 @@
 <h1>{{name}}</h1>
 <p>this is my first angular app</p>
 <app-nav></app-nav>
+<div>
+    <input type="text" [(ngModel)]="name">
+    <h1>{{name}}</h1>
+
+    <input type="button" value="click" (click)="clickMe()">
+</div>
